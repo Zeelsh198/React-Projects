@@ -1,0 +1,37 @@
+.standard-main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    margin: 50px;
+}
+
+.vip-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    margin: 50px;
+}
+
+.premium-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    margin: 50px;
+}
+
+
+.price-summary{
+    background-color: rgb(35, 34, 32);
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.total{
+    color: red;
+}

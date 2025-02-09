@@ -1,0 +1,135 @@
+/* Main Container Styling */
+.insert-container-main {
+  background-color: #f9f9f9;
+  width: 480px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Heading */
+.insert-container-main h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 500;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Form Group */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Label Styling */
+label {
+  display: block;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Input and Select Box Styling */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* File input specific styling */
+input[type="file"] {
+  padding: 6px;
+}
+
+/* Submit Button Styling */
+.submit-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover and focus effects for button */
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Input Placeholder Color */
+input::placeholder {
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .insert-container-main {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .submit-button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+.image-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.preview-image {
+  max-width: 100%; /* Ensures the image fits well within the container */
+  height: auto; /* Maintains aspect ratio */
+  border: 1px solid #ccc; /* Optional: add border for visual separation */
+  border-radius: 8px; /* Optional: round the corners */
+}
+
+.success-message {
+  margin-top: 20px;
+  color: green; /* Color for the success message */
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.cancel-button{
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

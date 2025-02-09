@@ -1,0 +1,110 @@
+/* Container for the entire home content */
+.table-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+  padding: 20px;
+  max-width: 1200px; /* Set max-width for better control of layout */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Individual item container styling */
+.data-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: calc(33.33% - 40px); /* Ensures three items per row with spacing */
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.data-item:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for images in the items */
+.post-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Font styling for item titles and text */
+.data-item p {
+  margin: 5px 0;
+}
+
+.data-item strong {
+
+  font-size: 15px;
+  color: #333;
+}
+
+/* Button container for item actions */
+.allbtns {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.allbtns .btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.allbtns .btn-danger {
+  background-color: #dc3545;
+}
+
+.allbtns .btn-info {
+  background-color: #17a2b8;
+}
+
+.allbtns .btn-warning {
+  background-color: #ffc107;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Loading state styling */
+.loadings {
+  margin: 20px auto auto auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  color: #666;
+  
+}
+
+.loadings h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .data-item {
+    width: calc(50% - 40px); /* Two items per row on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .data-item {
+    width: calc(100% - 40px); /* One item per row on mobile */
+  }
+}
+

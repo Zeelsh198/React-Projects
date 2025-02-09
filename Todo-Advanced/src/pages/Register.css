@@ -1,0 +1,71 @@
+
+
+.register-form-main{
+    width: 35%;
+    margin: 100px auto 0 auto;
+    background-color: #272727;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+    -moz-box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+    box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+}
+
+    
+.name-email-password{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    text-align: start;
+}
+.name-email-password input{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.name-email-password label{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.register{
+    margin: 40px 0 10px 0;
+}
+
+.error{
+    color: red;
+}
+
+.register-dark{
+    position: absolute;
+    width: 100%;
+    background-color: #393939;
+    height: 150vh;
+    
+}
+
+
+.register-light{
+    background-color: #cccccc;
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+}
+.theme-toggle-icon-register{
+    display: flex;
+    justify-content: center;
+}
+
+.register-light .register-form-main{
+    background-color: #b9b9b9;
+    -webkit-box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+    -moz-box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+    box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+    color: black;
+}

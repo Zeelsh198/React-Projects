@@ -1,0 +1,22 @@
+.apiList {
+  width: 100%;
+  margin: auto;
+
+  background-color: #272727;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition:  0.5s ease, color 0.5s ease;
+}
+
+
+.apilist-light{
+ background-color: #cccccc;
+ color: black;
+ -moz-box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+  box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+}
+

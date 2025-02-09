@@ -1,0 +1,49 @@
+.user-details-form{
+    width: 75%;
+}
+
+#ud{
+    
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.table-main{
+    
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+
+table{
+    border: 1px solid rgb(88, 81, 81);
+    width: 100%;
+    
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(110, 103, 103);
+    text-align: center;
+    
+}
+
+.user-pic{
+    text-align: center;
+
+}
+
+.tr-3 > td{
+    background-color: rgb(47, 37, 82);
+    color: white;
+}
+
+.edit-delete{
+    text-align: center;
+}

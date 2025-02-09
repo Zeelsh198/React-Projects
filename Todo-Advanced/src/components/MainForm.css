@@ -1,0 +1,66 @@
+.main-container {
+  
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.title-mytodo {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.inp-btn {
+  display: flex;
+  width: 75%;
+  justify-content: space-evenly;
+  margin-left: 200px;
+  position: relative;
+}
+
+.inp-btn input {
+  padding: 16px;
+  width: 1600px;
+  border-radius: 10px;
+}
+
+.inp-btn .btn {
+  width: 15%;
+  color: white;
+  position: relative;
+  right: 105px;
+  top: 8px;
+  height: 45px;
+}
+
+.inp-btn .btn:hover {
+  border: 2px solid rgb(201, 201, 10);
+  color: rgb(173, 173, 4);
+  background-color: rgb(255, 255, 255);
+} 
+
+.all-todos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 75%;
+  /* margin: 50px 20px 20px 120px; */
+  margin: auto;
+  padding-top: 40px;
+}
+/* body{
+  background-color: #393939;
+} */
+.MainForm-dark {
+  background-color: #272727;
+  transition:  0.5s ease, color 0.5s ease;
+}
+.MainForm-light {
+  background-color: #cccccc;
+  transition:  0.5s ease, color 0.5s ease;
+}
+
+.MainForm-light .title-mytodo{
+  color: black;
+}

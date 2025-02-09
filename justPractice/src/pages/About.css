@@ -1,0 +1,9 @@
+.about-demo{
+   
+    width: 80%;
+    margin: auto;
+}
+
+.about-demo > h1{
+    color: gold;
+}

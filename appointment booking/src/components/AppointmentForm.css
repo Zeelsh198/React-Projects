@@ -1,0 +1,115 @@
+.appointment-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.appointment-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.appointment-form h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #0056b3;
+  margin-bottom: 25px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.react-datepicker-wrapper input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.react-datepicker-wrapper input:focus {
+  outline: none;
+  border-color: #0056b3;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 86, 179, 0.2);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 86, 179, 0.3);
+}
+
+button:active {
+  background-color: #003f88;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.3);
+}
+
+.unavailable-message {
+  color: #d9534f;
+  font-size: 1rem;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #f5c6cb;
+}
+
+
+.react-datepicker-wrapper input {
+  background-color: #ffffff;
+}
+
+.react-datepicker {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.react-datepicker__day--disabled {
+  color: #ccc;
+  text-decoration: line-through;
+  pointer-events: none;
+}
+

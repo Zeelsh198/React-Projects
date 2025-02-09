@@ -1,0 +1,36 @@
+.sapretthem{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+    
+}
+
+
+.aboutt-container{
+    
+    color: white;
+    width: 52%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-container-dark{
+    background-color: #393939;
+    transition:  0.5s ease, color 0.5s ease;
+}
+
+.about-container-light{
+    background-color: #cccccc;
+    transition:  0.5s ease, color 0.5s ease;
+    color: black;
+  
+}
+
+.loader-main{
+    text-align: center;
+    
+}

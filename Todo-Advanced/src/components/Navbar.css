@@ -1,0 +1,79 @@
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 36px;
+  transition:  0.5s ease, color 0.5s ease;
+}
+
+.navbar-dark {
+  background-color: #272727;
+  color: white;
+}
+
+.navbar-light {
+  background-color: #cccccc;
+  color: black;
+  -webkit-box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+  -moz-box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+  box-shadow: 1px 1px 27px 19px rgba(107,107,107,0.43);
+}
+
+.navbar .logo a {
+  font-size: 24px;
+  font-weight: 600;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.linkss {
+  display: flex;
+  align-items: center;
+}
+
+.link, .active-link {
+  color: inherit;
+  margin: 0 12px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.link:hover {
+  text-decoration: underline 3px solid yellow;
+}
+
+.active-link {
+  text-decoration: underline 3px solid yellow;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle-icon {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: crimson;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 24px;
+  transition: all 0.3s;
+}
+
+.btn-red:hover {
+  background-color: #272727;
+  color: crimson;
+  border: 2px solid crimson;
+}

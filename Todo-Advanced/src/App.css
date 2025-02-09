@@ -1,0 +1,40 @@
+/* body{
+    background: #393939;
+} */
+* {
+  box-sizing: border-box;
+  font-family:  sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition:  0.5s ease, color 0.5s ease;
+}
+
+.cardss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 75%;
+  
+  margin: auto;
+  padding-top: 40px;
+}
+
+.NoNotes {
+  color: #d1cd97;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+}
+
+.NoNotes:hover {
+  color: #5b5b40;
+
+  transition: 0.5s all;
+}
+
+.form-cards {
+  background-color: #272727;
+  margin: auto;
+  width: 1300px;
+}

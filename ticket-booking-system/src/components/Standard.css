@@ -1,0 +1,95 @@
+.standard {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  background-color: rgb(140, 140, 140); 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.seat {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.seat:hover {
+  transform: scale(1.05); 
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.seat:hover .tooltip {
+  opacity: 1;
+}
+
+
+.booked {
+  background-color: #ff6347; 
+  pointer-events: none; 
+  cursor: not-allowed; 
+}
+
+.booked .tooltip {
+  background-color: #333;
+  color: white;
+}
+.seat {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.booked {
+  background-color: #f0f0f0;
+  pointer-events: none; 
+  cursor: not-allowed;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.seat:hover .tooltip {
+  opacity: 1;
+}

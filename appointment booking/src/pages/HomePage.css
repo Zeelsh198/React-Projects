@@ -1,0 +1,38 @@
+.homepage-container {
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.homepage-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 1 1 30%;
+  max-width: 30%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-4 {
+    max-width: 100%;
+  }
+}

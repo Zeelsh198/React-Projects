@@ -1,0 +1,94 @@
+/* Navbar Container */
+.nav-container {
+  background-color: #2c3e50;
+  height: 80px;
+  display: flex;
+
+  align-items: center;
+  padding: 0 20px;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Links and Buttons */
+.nav-container div {
+  margin: 0 15px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-container a:hover {
+  background-color: #4a5f5b;
+  color: #ffffff;
+}
+
+/* Sign Out Button */
+.nav-container .btn-danger {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-container .btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* User/Admin Role and Icon */
+.user-admin {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.user-admin h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.role-icon {
+  font-size: 24px; /* Icon size */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    padding: 15px;
+    height: auto;
+  }
+
+  .nav-container div {
+    margin: 10px 0;
+  }
+
+  .nav-container a,
+  .nav-container .btn-danger {
+    width: 100%;
+    text-align: center;
+  }
+
+  .user-admin h3 {
+    font-size: 18px;
+  }
+
+  .role-icon {
+    font-size: 20px; /* Adjusted icon size for mobile */
+  }
+}

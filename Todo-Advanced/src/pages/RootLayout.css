@@ -1,0 +1,9 @@
+.root-dark{
+    background-color: #393939;
+    min-height: 100vh;
+}
+
+.root-light{
+    background-color: #cccccc;
+    min-height: 100vh;
+}

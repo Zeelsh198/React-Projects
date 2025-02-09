@@ -1,0 +1,25 @@
+.contact-main {
+  height: 500px;
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 40px 100px 40px 100px;
+  border: 2px solid black;
+}
+
+strong {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.contact-info {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.zeelsimg > img {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}

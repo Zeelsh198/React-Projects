@@ -1,0 +1,70 @@
+.form-container{
+    box-sizing: border-box;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+}
+.firstbox{
+    display: flex;
+}
+.space{
+    padding: 10px;
+}
+
+label{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.note-title{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.note-discription{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.submit-button{
+    background-color: #3838d4;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Adding shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+} 
+
+.notes{
+    padding-top: 20px;
+}
+
+.notes-update{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.note-discription:hover{
+
+    border-radius: 5px;
+    border: 5px solid rgb(113, 229, 159);
+}
+
+.note-title:hover{
+
+    border-radius: 5px;
+    border: 5px solid rgb(113, 229, 159);
+}
+.submit-button:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.color{
+    display: grid;
+    
+}

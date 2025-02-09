@@ -1,0 +1,102 @@
+
+
+.geybg{
+  
+  
+  background-color: gray;
+  min-height: 100vh;
+}
+
+.login {
+  position: relative;
+  top: 150px;
+  left: 37%;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for overlay effect */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 500px;
+ 
+  text-align: center;
+  background-blend-mode: difference;
+  z-index: 2; /* Ensures the login form stays on top of the background */
+}
+
+/* Input field styles */
+.mobilenumber input, 
+.role select, 
+.enterotp input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.genotp .btn, 
+.loginbtn .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Dark and success button colors */
+.genotp .btn.btn-dark {
+  background-color: #333;
+}
+
+.genotp .btn.btn-dark:hover {
+  background-color: #555;
+}
+
+.loginbtn .btn.btn-success {
+  background-color: #28a745;
+}
+
+.loginbtn .btn.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Label styles */
+label {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Adding some spacing between form fields */
+.mobilenumber, 
+.role, 
+.genotp, 
+.enterotp, 
+.loginbtn {
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .login {
+    padding: 20px;
+  }
+}
+
+strong{
+  
+  font-size: 20px;
+}
+
+.error-display{
+  text-align: start;
+  color: red;
+}

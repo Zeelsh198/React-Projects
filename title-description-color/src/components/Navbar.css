@@ -1,0 +1,49 @@
+nav{
+    background-color: rgb(166, 161, 161);
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h2{
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1000px;
+    padding: 20px;
+   
+
+}
+
+
+/* Navbar.css */
+html.dark {
+  background-color: #121212; /* Dark mode background */
+  color: white; /* Light text */
+}
+
+html {
+  background-color: white; /* Light mode background */
+  color: black; /* Dark text */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+  

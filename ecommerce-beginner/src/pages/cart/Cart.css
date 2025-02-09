@@ -1,0 +1,94 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Padding for better spacing */
+    background-color: #f8f8f8; /* Light background for contrast */
+}
+
+.cartItem {
+    width: 800px; /* Increase width for better spacing */
+    height: 300px; /* Increase height for better spacing */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    border-radius: 15px; /* Slightly rounded corners */
+    margin: 20px 0; /* Vertical spacing between items */
+    background-color: #fff; /* White background for items */
+    transition: transform 0.2s; /* Animation effect */
+}
+
+.cartItem:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.cartItem img {
+    width: 150px; /* Set a consistent width for images */
+    height: 150px; /* Set a fixed height to ensure uniformity */
+    object-fit: contain; /* Ensure the entire image is visible */
+    border-radius: 10px; /* Rounded corners for images */
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.cartItem .description {
+    flex: 1; /* Allow description to take available space */
+    margin-left: 20px; /* Space between image and description */
+    font-size: 1.2rem; /* Increase font size for better readability */
+    color: #333; /* Darker text color for contrast */
+}
+
+.countHandler {
+    display: flex;
+    align-items: center;
+}
+
+.countHandler button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #000; /* Dark button background */
+    color: white; /* Button text color */
+    cursor: pointer;
+    border-radius: 5px; /* Slightly rounded button */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.countHandler button:hover {
+    background-color: #444; /* Darker shade on hover */
+}
+
+.countHandler input {
+    width: 50px; /* Increase input width for better usability */
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners for input */
+    margin: 0 10px; /* Space between buttons and input */
+}
+
+.checkout {
+    margin-top: 20px; /* Space above the checkout section */
+    text-align: center; /* Center align checkout elements */
+}
+
+.checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.checkout button:hover {
+    background-color: #333; /* Darker shade on hover */
+}
+
+
+.subtotal{
+    font-size: 30px;
+}
